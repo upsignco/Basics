@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace LoggerLibrary
 {
@@ -6,7 +7,6 @@ namespace LoggerLibrary
     {
         static void Main(string[] args)
         {
-         
         }
     }
 }
