@@ -42,11 +42,11 @@ namespace LoggerLibrary.Loggers
 
         private void AppendMessage(string date, ReportLevel reportLevel, string message)
         {
-             _appender.Append(date, reportLevel, message);
+            _appender.Append(date, reportLevel, message);
         }
 
     }
-    enum ReportLevel
+    public enum ReportLevel
     {
         Info,
         Warning,

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace LoggerLibrary
@@ -7,6 +8,8 @@ namespace LoggerLibrary
     {
         static void Main(string[] args)
         {
+            Engine engine = new Engine(new CommandInterpreter());
+            engine.Start();
         }
     }
 }

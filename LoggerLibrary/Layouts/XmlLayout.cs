@@ -5,9 +5,8 @@ using System.Text;
 
 namespace LoggerLibrary.Layouts
 {
-    //format <date-time> - <report level> - <message>
-    class SimpleLayout : ILayout
+    class XmlLayout : ILayout
     {
-        public string Format => "{0}-{1}-{2}";
+        public string Format => throw new NotImplementedException();
     }
 }

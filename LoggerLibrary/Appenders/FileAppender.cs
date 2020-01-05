@@ -1,4 +1,5 @@
 ﻿using LoggerLibrary.Layouts.Contracts;
+using LoggerLibrary.Loggers;
 using LoggerLibrary.Loggers.Contracts;
 using System;
 using System.Collections.Generic;
